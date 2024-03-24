@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Hover Effects</title>
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+
+        .image-container img {
+            width: 100px;
+            height: 100px;
+            transition: transform 0.3s ease;
+        }
+
+        /* Rotate effect on hover */
+        .image-container img.rotate:hover {
+            transform: rotate(15deg);
+        }
+
+        /* Scale effect on hover */
+        .image-container img.scale:hover {
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- First Row -->
+    <div class="image-container">
+        <img class="rotate" src="C:\Users\VICTUS\Desktop\css\exercise3\img\bike (7).png" alt="Image 1">
+        <img class="rotate" src="C:\Users\VICTUS\Desktop\css\exercise3\img\bike (1).png" alt="Image 2">
+        <img class="rotate" src="C:\Users\VICTUS\Desktop\css\exercise3\img\bike (9).png" alt="Image 3">
+    </div>
+
+    <!-- Second Row -->
+    <div class="image-container">
+        <img class="scale" src="C:\Users\VICTUS\Desktop\css\exercise3\img\bike (10).png" alt="Image 4">
+        <img class="scale" src="C:\Users\VICTUS\Desktop\css\exercise3\img\bike (11).png" alt="Image 5">
+        <img class="scale" src= "C:\Users\VICTUS\Desktop\css\exercise3\img\bike (10).png"alt="Image 6">
+    </div>
+
+</body>
+</html>
